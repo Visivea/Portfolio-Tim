@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #0c0341;
+    --secondary-color: #aca79d;
+    --background-color: #ffffff
+}
+
+.accent {
+    color: #ebeaec
+}
+
+.highlight {
+    color:#0c0341
+}
+
+.ProjectKaart {
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    width: 320px;
+    margin: 20px;
+}
+
+.ProjectKaarten {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .ProjectKaart {
+        flex-direction: column;
+    }
+}
+
+#navigate {
+    background-color: var(--secondary-color);
+}
+
+#over-mij {
+    background-color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 30px;
+    text-align: center;
+}
+        
+body {
+    background-color: var(--background-color)
+    color var(--secondary-color);
+    font-family: arial
+}
+
+main {
+    background-color: var(--secondary-color)
+    max-width 800px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+h1 {
+    padding: 30px;
+}
+
+h2 {
+    color:  #07060a;
+    padding: 25px;
+}
+        
+li {
+    padding: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 20px;
+}
